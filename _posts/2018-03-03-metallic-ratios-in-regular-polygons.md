@@ -38,7 +38,7 @@ is an integer.
 
 The experiment is then, for each triple $(n, k_2, k_1)$, to compute a candidate index by the above formula, and, if the candidate index is within a specified error threshold of an integer, print the triple followed by the candidate index.
 
-Notice that $k$-diagonals have the same length as $(n - k)$-diagonals. As such we restrict our parameter to space to tripes $(n, k_2, k_1)$ such that $1 \leq k_1 < k_2 \leq n / 2$.
+Notice that $k$-diagonals have the same length as $(n - k)$-diagonals. As such we restrict our parameter space to tripes $(n, k_2, k_1)$ such that $1 \leq k_1 < k_2 \leq n / 2$.
 
 <script src="https://gist.github.com/ezgrapes/3b4de6250a5c4a58f065035ef5c56e2e.js?file=list_candidates.py"></script>
 
